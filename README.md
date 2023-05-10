@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Intro
 
+This project is a remake of the REST Countries project form FE Mentor.
+I made that project on 2021 as part of my portfolio,  but now in 2023 I have decided to redo it, using different and better technologies that I have learned along the way.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Tech
+
+- This is a React based project using Typescript.
+- Using RTKQuery to fetch and handle data from an external API. The main reason to do so is data caching, as this project would involve otherwise an unnecessary amount of API calls that can be reduced by using this.
+- Tailwind as CSS framework make it beautiful and lighweight without spending a lot of time.
 
 ## Available Scripts
 
@@ -19,28 +27,12 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Why
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Building this out of motivation to practice RTKQuery, project file structure and tailwind on already known grounds.
+As a cutiosity, the first project took me 8-10 hours of work, while this one has taken me XX hours, which is a good measue bar for me to see how my skills have improved.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## TBD
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
