@@ -1,14 +1,14 @@
 # Intro
 
 This project is a remake of the REST Countries project form FE Mentor.
-I made that project on 2021 as part of my portfolio,  but now in 2023 I have decided to redo it, using different and better technologies that I have learned along the way.
+I made that project on 2021 as part of my portfolio, but now in 2023 I have decided to redo it, using different and better technologies that I have learned along the way.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Tech
 
 - This is a React based project using Typescript.
 - Using RTKQuery to fetch and handle data from an external API. The main reason to do so is data caching, as this project would involve otherwise an unnecessary amount of API calls that can be reduced by using this.
-- Tailwind as CSS framework make it beautiful and lighweight without spending a lot of time.
+- Tailwind as CSS framework, to make it beautiful and lighweight without spending a lot of time.
 
 ## Available Scripts
 
